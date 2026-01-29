@@ -1,4 +1,4 @@
-# 🌐 Greeting Card - ![Status](https://img.shields.io/badge/in%20progress-yellow)
+# 🌐 Greeting Card - ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 This project is an interactive greeting card developed as part of the **freeCodeCamp** Web Design certification. The goal is to create a visually appealing card using HTML and CSS, leveraging modern design principles and interactivity.
 
@@ -24,7 +24,7 @@ The main challenge was creating an interactive experience using only CSS. I focu
 2. Open `index.html` in your browser
 
 ## 🖼 Preview
-*Screenshots coming soon...*
+![Greeting Card Preview](preview.png)
 
 ### Quick Links
 [Live Demo](https://rkaus.dev/password-generator) *(Coming Soon)*
