@@ -1,3 +1,4 @@
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   padding: 40px;
@@ -5,6 +6,7 @@ body {
   background-color: brown;
 }
 
+/* Main card container with smooth hover transitions */
 .card {
   background-color: white;
   max-width: 400px;
@@ -15,11 +17,13 @@ body {
   transition: transform 0.3s, background-color 0.3s ease;
 }
 
+/* Interaction: Scale and color change on hover */
 .card:hover {
   background-color: khaki;
   transform: scale(1.1);
 }
 
+/* Decorative emojis added via CSS generated content */
 h1::before {
   content: "🥳 ";
 }
@@ -33,12 +37,14 @@ h1::after {
   margin-bottom: 20px;
 }
 
+/* Layout for the action buttons */
 .card-links {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
 
+/* Button styling and state management */
 .card-links a {
   text-decoration: none;
   font-size: 1em;
@@ -53,18 +59,11 @@ h1::after {
   background-color: orangered;
 }
 
-.card-links a:active {
-  background-color: midnightblue;
-}
-
 .card-links a:focus {
-  outline: 2px solid yellow;
+  outline: 2px solid yellow; /* Accessibility: highlights button when using keyboard */
 }
 
-.card-links a:visited {
-  color: crimson;
-}
-
+/* Logic: Hidden sections that appear when their ID is targeted in the URL */
 section {
   display: none;
   margin: 20px auto;
@@ -74,10 +73,10 @@ section {
   border-radius: 10px;
 }
 
-section:hover {
-  transform: skewX(10deg);
+section:target {
+  display: block; /* Shows the section when the link is clicked */
 }
 
-section:target {
-  display: block;
+section:hover {
+  transform: skewX(10deg);
 }
